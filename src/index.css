@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue !important;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ff6a95;
+    padding: 15px;
+    margin: 0 auto 45px;
+}
+
+.card {
+    padding: 20px;
+    position: relative;
+    margin-bottom: 15px;
+    &.reverse {
+        background-color: black;
+        color: white;
+    }
+    .num-display {
+        color: white;
+        //padding: 5px;
+        border-radius: 50%;
+        line-height: 1;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        background: pink;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .text-display {
+    }
+    .close {
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        background: darkred;
+        color: white;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 1;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: none;
+        svg {
+            color: white !important;
+        }
+    }
+}
